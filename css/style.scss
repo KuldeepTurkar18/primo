@@ -1,0 +1,194 @@
+
+.teamsection{
+  width: 100%;
+  display: block;
+  padding: 80px 0px;
+  background: #f9f9f9;
+  // z-index: -2;
+  // position: relative;
+  .card{
+    box-shadow: 0px 0px 1px #b0b0b0,0px 0px 2px #dbdbdb;
+    .card-img-top{
+      width: 100%;
+    }
+  .card-body{
+    background: #fff;
+    padding: 20px;
+    overflow: auto;
+    .card-title{
+      margin: 0;
+      font-size: 24px;
+      color: #f37465;
+      padding-bottom: 20px;
+     }
+     .card-text {
+       margin-bottom: 25px;
+     }
+     .btn-red{
+       float: right;
+       cursor: pointer;
+       &:hover{
+           background: #fff !important;
+           color: #000 !important;
+       }
+      @media only screen and (max-width: 767px){
+         float:none;
+      }
+     }
+    }
+  }
+}
+.testinomial-section{
+  .test-img{
+    img{
+      width: 100%;
+    }
+  }
+  .text-content {
+      @media only screen and (max-width: 767px){
+          margin: 5px 20px;
+          padding: 25px 25px 25px;
+      }
+    }
+  }
+
+  .cando-section{
+    .do-main-box{
+       ul {
+             @media only screen and (max-width: 767px){
+                text-align:center;
+              }
+
+          li{
+            &:first-child{
+                @media only screen and (max-width: 767px){
+                margin-left: 0;
+              }
+            &:last-child {
+                  margin-left: 0;
+              }
+            }
+          }
+        }
+      }
+   }
+  footer{
+    font-weight: 400;
+   background: #292e34;
+   padding: 90px 0 0;
+   .logo{
+     margin-bottom: 30px;
+   }
+   .description {
+      color: #fff;
+      line-height: 2;
+     }
+     .s-social {
+      width: max-content;
+      margin: 30px 0 0;
+      a {
+        color: #fff;
+        text-decoration: none;
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        font-size: 1.8rem;
+        line-height: 40px;
+        text-align: center;
+        margin-right: 15px;
+        border: 1px solid #f37465;
+        border-radius: 40px;
+        transition: all .3s ease-in-out;
+        i{
+           &:hover{
+              color: #f37465;
+           }
+         }
+       }
+     }
+     .heading {
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: #fff;
+        line-height: 3rem;
+        margin-bottom: 30px;
+    }
+    .s-address {
+    color: #fff;
+    .detail {
+        font-size: 1.8rem;
+        display: block;
+        margin-bottom: 30px;
+        a{
+          color: #fff;
+        }
+        span {
+              font-size: 2.1rem;
+              padding-right: 20px;
+          }
+        }
+     }
+     #subsribe {
+        position: relative;
+        width: 100%;
+        display: block;
+        margin-bottom: 15px;
+       input[type="email"] {
+          width: 100%;
+          font-weight: 400;
+          font-size: .87rem;
+          background-color: #313840;
+          border: solid #313840;
+          font-size: 1.8rem;
+          color: #efefef;
+          border-radius: 20px;
+          padding-left: 15px;
+          padding-right: 15px;
+          height: 38px;
+        }
+      input[type="submit"]{
+        border-radius: 20px;
+         padding-left: 15px;
+         padding-right: 15px;
+         height: 38px;
+         position: absolute;
+        width: max-content;
+        top: 0px;
+        right: 0px;
+        font-weight: 800;
+        background-color: #f37465;
+        border: solid #f37465;
+        color: white;
+        cursor: pointer;
+       }
+     }
+     .subfooter{
+        display: flex;
+        justify-content: space-between;
+        padding: 30px 0;
+        margin-top: 45px;
+        border-top: 1px solid rgba(255,255,255,.1);
+        .copyright {
+          font-size: 1.6rem;
+          color: #ccc;
+       }
+        .terms {
+          font-size: 1.6rem;
+          font-weight: 400;
+          color: #ccc;
+          text-decoration: none;
+          transition: all .3s ease-in-out;
+        }
+     }
+     .p-3-vh {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+  }
+  footer{
+     a{
+       color: #000;
+     }
+  }
